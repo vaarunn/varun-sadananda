@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fc2834f.css",
-    "main.js": "/static/js/main.44d27a80.js",
-    "static/media/netflix.jpg": "/static/media/netflix.35d70e3206a8e6d3180b.jpg",
-    "static/media/property.jpg": "/static/media/property.4fd99b8c3765aae4d91a.jpg",
-    "static/media/twitch.jpg": "/static/media/twitch.827bd4ebcf29bd6acc7d.jpg",
-    "static/media/crypto.jpg": "/static/media/crypto.62509a60e0a0f5ec96f9.jpg",
-    "static/media/CPP.png": "/static/media/CPP.c7101f32937bdf40f7d8.png",
-    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/logo.png": "/static/media/logo.287cbe43be49d042f0d6.png",
-    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
-    "static/media/github.png": "/static/media/github.5b161304c2f1f68eadc8.png",
-    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/index.html",
-    "main.0fc2834f.css.map": "/static/css/main.0fc2834f.css.map",
-    "main.44d27a80.js.map": "/static/js/main.44d27a80.js.map"
+    "main.css": "/varun-sadananda/static/css/main.0fc2834f.css",
+    "main.js": "/varun-sadananda/static/js/main.de25bdc3.js",
+    "static/media/netflix.jpg": "/varun-sadananda/static/media/netflix.35d70e3206a8e6d3180b.jpg",
+    "static/media/property.jpg": "/varun-sadananda/static/media/property.4fd99b8c3765aae4d91a.jpg",
+    "static/media/twitch.jpg": "/varun-sadananda/static/media/twitch.827bd4ebcf29bd6acc7d.jpg",
+    "static/media/crypto.jpg": "/varun-sadananda/static/media/crypto.62509a60e0a0f5ec96f9.jpg",
+    "static/media/CPP.png": "/varun-sadananda/static/media/CPP.c7101f32937bdf40f7d8.png",
+    "static/media/react.png": "/varun-sadananda/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/logo.png": "/varun-sadananda/static/media/logo.287cbe43be49d042f0d6.png",
+    "static/media/html.png": "/varun-sadananda/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/varun-sadananda/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/varun-sadananda/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/firebase.png": "/varun-sadananda/static/media/firebase.209703cedf1b1a96bc52.png",
+    "static/media/github.png": "/varun-sadananda/static/media/github.5b161304c2f1f68eadc8.png",
+    "static/media/javascript.png": "/varun-sadananda/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/varun-sadananda/index.html",
+    "main.0fc2834f.css.map": "/varun-sadananda/static/css/main.0fc2834f.css.map",
+    "main.de25bdc3.js.map": "/varun-sadananda/static/js/main.de25bdc3.js.map"
   },
   "entrypoints": [
     "static/css/main.0fc2834f.css",
-    "static/js/main.44d27a80.js"
+    "static/js/main.de25bdc3.js"
   ]
 }
