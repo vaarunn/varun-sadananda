@@ -1,5 +1,5 @@
 import AnimatedRoutes from './components/AnimatedRoutes';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import AOS from 'aos';
@@ -11,10 +11,10 @@ const App = () => {
 
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <AnimatedRoutes />
-      </BrowserRouter>
+      </Router>
     </>
   );
 };
