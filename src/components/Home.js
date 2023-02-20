@@ -5,6 +5,7 @@ import Particle from './Particles';
 import { motion } from 'framer-motion';
 
 import Zoom from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <motion.div
@@ -39,20 +40,24 @@ const Home = () => {
                 </h1>
                 <div className='flex items-between justify-center gap-3 max-w-[330px] m-auto py-4'>
                   {socialIcons.map((icons) => {
-                    const { id, icon } = icons;
+                    const { id, icon, url } = icons;
                     return (
-                      <div
-                        key={id}
-                        className='rounded-full bg-[#273f6a] shadow-lg shadow-gray-200 p-3 cursor-pointer hover:scale-125 ease-in duration-300'
-                      >
-                        {icon}
-                      </div>
+                      <a href={url}>
+                        <div
+                          key={id}
+                          className='rounded-full bg-[#273f6a] shadow-lg shadow-gray-200 p-3 cursor-pointer hover:scale-125 ease-in duration-300'
+                        >
+                          {icon}
+                        </div>
+                      </a>
                     );
                   })}
                 </div>
-                <button className='py-2 m-4 bg-[#0ea5e9] px-6 text-xl hover:bg-[#195e7d] ease-in duration-300'>
-                  Resume
-                </button>
+                <Link to='https://drive.google.com/file/d/1RfLai75Zxo4K3Jcyg4Zq6SOsS-CiQeVy/view?usp=share_link'>
+                  <button className=' py-2 m-4 bg-[#0ea5e9] px-6 text-xl hover:bg-[#195e7d] ease-in duration-300'>
+                    Resume
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -81,7 +81,9 @@ const Navbar = () => {
         >
           <div>
             <div className='flex justify-between items-center'>
-              <img src={logo} alt='/' width='87' height='87'></img>
+              <Link to='/'>
+                <img src={logo} alt='/' width='87' height='87'></img>
+              </Link>
 
               <div
                 className='cursor-pointer text-white'
@@ -116,13 +118,14 @@ const Navbar = () => {
                 </p>
                 <div className='flex items-center justify-between my-4 w-full sm-:w-[88%]'>
                   {socialIcons.map((icons) => {
-                    const { id, icon } = icons;
+                    const { id, icon, url } = icons;
+
                     return (
                       <div
                         key={id}
                         className='rounded-full bg-[#273f6a] shadow-lg shadow-gray-200 p-3 cursor-pointer hover:scale-125 ease-in duration-300'
                       >
-                        {icon}
+                        <a href={url}>{icon}</a>
                       </div>
                     );
                   })}

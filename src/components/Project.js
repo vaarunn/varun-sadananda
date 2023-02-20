@@ -16,9 +16,9 @@ function Projects() {
     setProjects(newProjects);
   }, [item]);
 
-  const handleClick = (e, index) => {
+  const handleClick = (e, id) => {
     setItem({ name: e.target.textContent.toLowerCase() });
-    setActive(index);
+    setActive(id);
   };
 
   return (
@@ -31,18 +31,16 @@ function Projects() {
     >
       <nav className='mb-12 max-w-xl mx-auto mt-20'>
         <ul className='flex flex-col md:flex-row justify-evenly items-center '>
-          {projectsNav.map((item, index) => {
-            const { name } = item;
+          {projectsNav.map((item) => {
+            const { name, id } = item;
             return (
               <li
                 onClick={(e) => {
-                  handleClick(e, index);
+                  handleClick(e, id);
                 }}
-                key={index}
+                key={id}
                 className={`cursor-pointer uppercase m-4 bg-[#0ea5e9] py-2 px-4 shadow-lg font-bold shadow-blue-500 rounded-xl 
-                  ${
-                    active === index ? 'bg-[#095373] ease-in duration-300 ' : ''
-                  }`}
+                  ${active === id ? 'bg-[#0b658f] duration-150' : ''}`}
               >
                 {name}
               </li>

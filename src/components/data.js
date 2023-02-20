@@ -1,11 +1,9 @@
 import crypto from '../assets/projects/crypto.jpg';
 import netflix from '../assets/projects/netflix.jpg';
-import property from '../assets/projects/property.jpg';
-import twitch from '../assets/projects/twitch.jpg';
+import youtube from '../assets/projects/youtube.png';
 
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 import html from '../assets/skills/html.png';
 import css from '../assets/skills/css.png';
@@ -47,18 +45,17 @@ const socialIcons = [
   {
     id: '1',
     icon: <FaLinkedinIn />,
+    url: 'https://www.linkedin.com/in/varun-sadananda-b251131b7/',
   },
   {
     id: '2',
     icon: <FaGithub />,
+    url: 'https://github.com/vaarunn',
   },
   {
     id: '3',
     icon: <AiOutlineMail />,
-  },
-  {
-    id: '4',
-    icon: <BsFillPersonLinesFill />,
+    url: '#/contact',
   },
 ];
 
@@ -115,34 +112,26 @@ const projectData = [
   {
     id: 1,
     img: crypto,
-    name: 'Crypto App',
-    category: 'Intermediate',
-    githubLink: '/',
-    demoLink: '/',
+    name: 'CryptoBase',
+    category: 'Advanced',
+    githubLink: '/https://github.com/vaarunn/cryptobase/',
+    demoLink: '/https://vaarunn.github.io/cryptobase/',
   },
   {
     id: 2,
     img: netflix,
     name: 'Netflix App',
-    category: 'Basic',
-    githubLink: '/',
-    demoLink: '/',
+    category: 'Intermediate',
+    githubLink: '/https://github.com/vaarunn/ultimate-netflix',
+    demoLink: '/https://vaarunn.github.io/ultimate-netflix/',
   },
   {
     id: 3,
-    img: property,
-    name: 'Property App',
-    category: 'Advanced',
-    githubLink: '/',
-    demoLink: '/',
-  },
-  {
-    id: 4,
-    img: twitch,
-    name: 'Twitch App',
-    category: 'Advanced',
-    githubLink: '/',
-    demoLink: '/',
+    img: youtube,
+    name: 'Youtube Clone',
+    category: 'Intermediate',
+    githubLink: '/https://github.com/vaarunn/ultimate-youtube',
+    demoLink: '/https://vaarunn.github.io/ultimate-youtube/',
   },
 ];
 

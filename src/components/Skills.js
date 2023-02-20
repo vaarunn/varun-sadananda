@@ -11,7 +11,7 @@ function Skills() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className='w-full h-screeen  lg:h-screen p-2 py-20'
+      className='w-full h-auto  lg:h-screen p-2 py-20'
     >
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full  '>
         <div className=' grid md:grid-cols-2 lg:grid-cols-4 gap-8 '>

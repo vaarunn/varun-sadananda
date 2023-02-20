@@ -35,7 +35,7 @@ function Contact() {
       );
   };
   return (
-    <div className='w-full h-full lg:h-screen py-16'>
+    <div className='w-full h-auto lg:h-screen py-16'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
