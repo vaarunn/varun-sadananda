@@ -11,9 +11,9 @@ function Skills() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className='w-full h-auto  lg:h-screen p-2 py-20'
+      className='overflow-y-scroll w-full h-screen  p-2 py-[150px]'
     >
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-auto  '>
+      <div className=' max-w-[1240px] mx-auto flex flex-col justify-center   '>
         <div className=' grid md:grid-cols-2 lg:grid-cols-4 gap-8 '>
           {skills.map((skill) => {
             const { id, img, title } = skill;
@@ -21,7 +21,7 @@ function Skills() {
               <Zoom>
                 <div
                   key={id}
-                  className='bg-[#273f6a] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'
+                  className='bg-[#273f6a]  p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'
                 >
                   <div className='grid grid-cols-2 gap-4 justify-center items-center '>
                     <div className='m-auto'>

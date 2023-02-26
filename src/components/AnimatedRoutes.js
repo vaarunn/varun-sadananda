@@ -3,9 +3,9 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import About from './About';
 import Skills from './Skills';
 import Contact from './Contact';
-import Project from './Project';
 import Home from './Home';
 import { AnimatePresence } from 'framer-motion';
+import Projects from './Projects';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -16,7 +16,7 @@ const AnimatedRoutes = () => {
         <Route path='/about' element={<About />}></Route>
         <Route path='/skills' element={<Skills />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
-        <Route path='/project' element={<Project />}></Route>
+        <Route path='/project' element={<Projects />}></Route>
       </Routes>
     </AnimatePresence>
   );

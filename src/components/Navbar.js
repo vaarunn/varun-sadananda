@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { FaHamburger } from 'react-icons/fa';
@@ -9,30 +9,13 @@ import { links } from '../components/data';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [shadow, setShadow] = useState(false);
 
   const toogleSidebar = () => {
     setNav(!nav);
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY >= 90) {
-        setShadow(true);
-      } else {
-        setShadow(false);
-      }
-    };
-    window.addEventListener('scroll', handleScroll);
-  }, []);
   return (
-    <div
-      className={
-        shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] bg-[#273f6a]'
-          : 'fixed w-full h-20  z-[100]'
-      }
-    >
+    <div className='fixed w-full h-20  z-[100]'>
       {/* div containing all the nav links */}
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         {/* image link  */}
@@ -75,8 +58,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'border-l-4 border-indigo-500 fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full  p-10  ease-in duration-500'
-              : 'fixed right-[-150%] top-0 p-10 ease-in duration-500'
+              ? ' fixed right-0 top-0 w-[100%] sm:w-[60%] md:w-[45%] h-full  p-10  ease-in duration-500 bg-[#273f6a]'
+              : 'fixed top-[-250%]  p-10 ease-in duration-500  '
           }
         >
           <div>
