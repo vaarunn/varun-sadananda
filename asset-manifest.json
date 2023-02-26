@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/varun-sadananda/static/css/main.865aad57.css",
-    "main.js": "/varun-sadananda/static/js/main.9aeae349.js",
+    "main.css": "/varun-sadananda/static/css/main.692d83fe.css",
+    "main.js": "/varun-sadananda/static/js/main.103e42d6.js",
     "static/media/netflix.jpg": "/varun-sadananda/static/media/netflix.35d70e3206a8e6d3180b.jpg",
     "static/media/youtube.png": "/varun-sadananda/static/media/youtube.ae2a7e9ff03a17459703.png",
     "static/media/crypto.jpg": "/varun-sadananda/static/media/crypto.62509a60e0a0f5ec96f9.jpg",
@@ -15,11 +15,11 @@
     "static/media/github.png": "/varun-sadananda/static/media/github.5b161304c2f1f68eadc8.png",
     "static/media/javascript.png": "/varun-sadananda/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/varun-sadananda/index.html",
-    "main.865aad57.css.map": "/varun-sadananda/static/css/main.865aad57.css.map",
-    "main.9aeae349.js.map": "/varun-sadananda/static/js/main.9aeae349.js.map"
+    "main.692d83fe.css.map": "/varun-sadananda/static/css/main.692d83fe.css.map",
+    "main.103e42d6.js.map": "/varun-sadananda/static/js/main.103e42d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.865aad57.css",
-    "static/js/main.9aeae349.js"
+    "static/css/main.692d83fe.css",
+    "static/js/main.103e42d6.js"
   ]
 }
