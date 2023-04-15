@@ -1,7 +1,6 @@
 import React from 'react';
 import Particles from './Particles';
-import { socialIcons } from './data';
-import Typewriter from 'typewriter-effect';
+
 const Main = () => {
   return (
     <div>
