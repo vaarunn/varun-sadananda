@@ -1,6 +1,6 @@
-import { useCallback } from 'react';
-import Particles from 'react-particles';
-import { loadFull } from 'tsparticles';
+import { useCallback } from "react";
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
 
 const Particle = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -11,25 +11,25 @@ const Particle = () => {
 
   return (
     <Particles
-      id='tsparticles'
+      id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
         background: {
           color: {
-            value: '#000a1f',
+            value: "#000a1f",
           },
         },
-        fpsLimit: 120,
+        fpsLimit: 60,
         interactivity: {
           events: {
             onClick: {
-              enable: true,
-              mode: 'push',
+              enable: false,
+              mode: "push",
             },
             onHover: {
               enable: true,
-              mode: 'repulse',
+              mode: "repulse",
             },
             resize: true,
           },
@@ -45,10 +45,10 @@ const Particle = () => {
         },
         particles: {
           color: {
-            value: '#ffffff',
+            value: "#ffffff",
           },
           links: {
-            color: '#ffffff',
+            color: "#ffffff",
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -58,10 +58,10 @@ const Particle = () => {
             enable: true,
           },
           move: {
-            directions: 'none',
+            directions: "none",
             enable: true,
             outModes: {
-              default: 'bounce',
+              default: "bounce",
             },
             random: false,
             speed: 6,
@@ -72,13 +72,13 @@ const Particle = () => {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 40,
           },
           opacity: {
             value: 0.5,
           },
           shape: {
-            type: 'circle',
+            type: "circle",
           },
           size: {
             value: { min: 1, max: 5 },
